@@ -292,3 +292,4 @@ function generatePattern5(n) {
 
 
 
+
