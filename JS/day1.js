@@ -276,7 +276,7 @@ function generatePattern5(n) {
 // 1234 4321 
 // 12345 54321
 
-console.log("arbaaz");
+
 
 
 
