@@ -258,4 +258,5 @@ console.log(generatePattern22(4)); //output
 // 4333334
 // 4444444
 
+console.log("arbaaz");
 
