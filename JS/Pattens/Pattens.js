@@ -555,3 +555,5 @@ function generatePattern22(num) {
 
 
 
+
+
