@@ -9,4 +9,5 @@ function sumnum(n) {
     }
 }
 
-// console.log(sumnum([1, 2, 3, 4, 5]));
+console.log(sumnum([1, 2, 3, 4, 5])); // 15 
+console.log(sumnum([1, 2, 3, 4, 5,6,7,8])); // 36

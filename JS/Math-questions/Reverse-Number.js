@@ -13,4 +13,6 @@ function reverseFunction(N) {
 }
 
 console.log(reverseFunction(7789)); // Output: 9877
+console.log(reverseFunction(299)); // Output: 299
+console.log(reverseFunction(3884)); // Output: 4883
 
