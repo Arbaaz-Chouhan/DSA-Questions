@@ -17,3 +17,5 @@ function selectionSort(arr) {
 let array = [13, 46, 24, 52, 20, 9];
 console.log(selectionSort(array));
 
+
+
