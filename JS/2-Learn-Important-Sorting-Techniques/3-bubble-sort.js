@@ -3,9 +3,10 @@ function bubbleSort(arr) {
         for (let j = 0; j < arr.length; j++) {
             if (arr[j] > arr[j + 1]) {
                 // Swap adjacent elements
-                let temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
+                // let temp = arr[j];
+                // arr[j] = arr[j + 1];
+                // arr[j + 1] = temp;
+                [arr[j],arr[j+1]] = [arr[j+1],arr[j]]
             }
         }
     }
@@ -15,4 +16,3 @@ function bubbleSort(arr) {
 const numbers = [7, 4, 5, 2];
 console.log(bubbleSort(numbers)); // Output: [2, 4, 5, 7]
 
-console.log(("arbaaz chouhan"));
