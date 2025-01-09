@@ -6,7 +6,7 @@ function bubbleSort(arr) {
                 // let temp = arr[j];
                 // arr[j] = arr[j + 1];
                 // arr[j + 1] = temp;
-                [arr[j],arr[j+1]] = [arr[j+1],arr[j]]
+                [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]
             }
         }
     }
@@ -15,4 +15,7 @@ function bubbleSort(arr) {
 
 const numbers = [7, 4, 5, 2];
 console.log(bubbleSort(numbers)); // Output: [2, 4, 5, 7]
+
+
+
 
