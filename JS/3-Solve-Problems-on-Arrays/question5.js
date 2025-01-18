@@ -4,7 +4,7 @@
 function LeftRotatetheArraybyOne(arr) {
     let firstElement = arr[0];
     for (let i = 0; i < arr.length; i++) {
-        arr[0] = arr[arr.length - 1]
+        arr[i] = arr[i+1]
 
     }
 
