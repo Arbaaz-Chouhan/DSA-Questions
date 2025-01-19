@@ -10,4 +10,4 @@ function RotateArrayByKElements(arr) {
  return  concat
 }
 
-// console.log(RotateArrayByKElements([1, 2, 3, 4, 5, 6, 7])); // output [5,6 ,7 ]
+console.log(RotateArrayByKElements([1, 2, 3, 4, 5, 6, 7])); // output [5,6 ,7 ]
