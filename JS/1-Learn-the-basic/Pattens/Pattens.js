@@ -162,17 +162,18 @@ function generatePattern8() {
 
 
 // 9: Pattern
-function generatePattern9() {
+function generatePattern9(n) {
     let res = "";
-    for (let i = 0; i <= 9; i++) { // Outer loop for rows
+    for (let i = 0; i <= n; i++) { // Outer loop for rows
         for (let j = 1; j <= i; j++) { // Inner loop for columns
             if (i % 2 !== 0) {
                 res += "*";
-            }
+            } 
         }
         res += "\n";
+
     }
-    for (let k = 9; k >= 0; k--) { // Outer loop for rows
+    for (let k = n; k >= 0; k--) { // Outer loop for rows
         for (let l = 1; l <= k; l++) { // Inner loop for columns
             if (k % 2 !== 0) {
                 res += "*";
@@ -184,7 +185,7 @@ function generatePattern9() {
     return res;
 }
 
-// console.log(generatePattern9()); //output 
+console.log(generatePattern9(9)); //output 
 //  *
 // ***
 // *****
@@ -210,7 +211,7 @@ function generatePattern10() {
             res += "*";
 
         }
-        res += "\n";
+        res +=  +"\n";
     }
 
     return res;
@@ -264,18 +265,17 @@ function generatePattern5(n) {
         for (let k = i; k >= 1; k--) { // Inner loop for descending
             reverse += k;
         }
-        result += right + " " + reverse + "\n";
+        result += right + " ".repeat(2 * (n - i)) +reverse + "\n";
     }
     return result;
 }
 
 // console.log(generatePattern5(5)); //output 
-// 1   1
-// 12 21
-// 123 321
-// 1234 4321 
-// 12345 54321
-
+// 1      1
+// 12    21
+// 123  321
+// 1234 4321
+// 1234554321
 
 // 13: Pattern
 function generatePattern13(n) {
