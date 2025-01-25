@@ -528,7 +528,7 @@ function generatePattern22(num) {
     return result;
 }
 
-console.log(generatePattern22(4)); //output
+// console.log(generatePattern22(4)); //output
 // 4444444
 // 4333334
 // 4322234
