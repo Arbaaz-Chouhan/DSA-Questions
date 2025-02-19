@@ -23,5 +23,5 @@ function FindMaxSubarray(arr) {
 }
 
 
-// console.log(FindMaxSubarray([4, -1, 2, 1])); // 6
-// console.log(FindMaxSubarray( [-2,1,-3,4,-1,2,1,-5,4] )); // 6
+console.log(FindMaxSubarray([4, -1, 2, 1])); // 6
+console.log(FindMaxSubarray( [-2,1,-3,4,-1,2,1,-5,4] )); // 6
