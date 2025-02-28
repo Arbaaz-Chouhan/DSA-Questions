@@ -23,4 +23,4 @@ function rearrangeArray(nums) {
     return result;
 }
 
-console.log(rearrangeArray([3, 1, -2, -5, 2, -4])); // Output: [3, -2, 1, -5, 2, -4]
+// console.log(rearrangeArray([3, 1, -2, -5, 2, -4])); // Output: [3, -2, 1, -5, 2, -4]
