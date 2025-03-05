@@ -21,5 +21,5 @@ function LongestConsecutivefn(arr) {
 }
 
 
-console.log(LongestConsecutivefn([100, 200, 1, 3, 2, 4]));
-console.log(LongestConsecutivefn([3, 8, 5, 7, 6]));
+// console.log(LongestConsecutivefn([100, 200, 1, 3, 2, 4]));
+// console.log(LongestConsecutivefn([3, 8, 5, 7, 6]));
