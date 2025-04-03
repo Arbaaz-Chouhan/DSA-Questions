@@ -25,4 +25,3 @@ console.log(CountSubarray([3, 1, 2, 4], 6)); // Output: 2   Explanation
 
 console.log(CountSubarray([1,2,3],3)); // Output: 2  Explanation:
 // The subarrays that sum up to 3 are [1, 2], and [3].
-
