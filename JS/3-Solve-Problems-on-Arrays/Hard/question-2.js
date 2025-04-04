@@ -3,8 +3,6 @@
 
 function FindElementMoreThen3(arr) {
  let res = [];
- 
-
  for(let i = 0; i<arr.length; i++){
     let freq = 0;
     if(arr[i] === arr[i] ){
