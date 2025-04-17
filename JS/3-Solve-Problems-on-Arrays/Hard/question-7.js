@@ -8,7 +8,7 @@ function mergeSortedArrays(arr1, arr2) {
 
     for (let i = 0; i < n; i++) {
         if (arr1[i] > arr2[0]) {
-            
+
             let temp = arr1[i];
             arr1[i] = arr2[0];
             arr2[0] = temp;
@@ -19,7 +19,7 @@ function mergeSortedArrays(arr1, arr2) {
                     arr2[j] = arr2[j + 1];
                     arr2[j + 1] = temp2;
                 } else {
-                    break; 
+                    break;
                 }
             }
         }
