@@ -16,3 +16,4 @@ function ReversePairs(arr) {
 
 console.log(ReversePairs([1, 3, 2, 3, 1])); // Output: 2
 console.log(ReversePairs([3, 2, 1, 4])); // Output: 1
+
