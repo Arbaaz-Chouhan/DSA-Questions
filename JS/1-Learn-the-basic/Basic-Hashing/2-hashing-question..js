@@ -24,4 +24,4 @@ function frequency(arr) {
     return res
 }
 
-console.log(frequency([10, 5, 10, 15, 10, 5]));
+console.log(frequency([10, 5, 10, 15, 10, 5]));  /// [10,15]
